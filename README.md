@@ -7,19 +7,25 @@ A Node.js + Express + MongoDB API with user authentication, CRUD, search, filter
 
 ## SETUP INSTRUCTIONS
 
-1. Download the zip file and extract it. Use the password below:
+1. Clone the repo
 
 ```bash
-jesselat#2
+git clone https://github.com/jesselouiselat/game-library-backend.git
 ```
 
-2. Install dependencies:
+2. Go into the folder
+
+```bash
+cd game-library-backend
+```
+
+3. Install dependencies:
 
 ```bash
   npm install
 ```
 
-3. Create a .env file in the root folder with the following variables:
+4. Create a .env file in the root folder with the following variables:
 
 ```bash
 PORT=5000
@@ -27,7 +33,7 @@ MONGO_URI=mongodb://localhost:27017/<folder name>
 JWT_SECRET=<yourSuperSecretKey>
 ```
 
-4. Start MongoDB (locally):
+5. Start MongoDB (locally):
 
 ```bash
     mongod
